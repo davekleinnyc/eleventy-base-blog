@@ -1,4 +1,39 @@
 ---
 label: Test
 hide_body: true
-fields: []
+fields:
+- name: test_text
+  type: text
+  config:
+    required: false
+  label: Test Text
+- name: Test_Date
+  type: datetime
+  label: Test Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: test_list
+  type: list
+  config:
+    use_select: false
+    min: 3
+    max: 5
+  label: Test List
+- name: test_field_group
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Test Field Group
+- name: test_block
+  type: blocks
+  label: Test Block
+  template_types: []
+  config:
+    min: 
+    max: 
