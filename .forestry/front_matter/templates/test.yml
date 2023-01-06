@@ -37,3 +37,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- posts/Test New Template.md
